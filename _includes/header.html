@@ -1,0 +1,14 @@
+<header class="site-header" role="banner">
+  <div class="container">
+    <a href="/" class="logo"><img src="{{ site.logo.path }}" alt="{{ site.logo.alt }}"></a>
+    <nav role="navigiation">
+      <ul class="site-nav">
+        <li><a href="/about/">About</a>
+        <li><a href="/blog/">Blog</a>
+      </ul>
+    </nav>
+  </div>
+</header>
+{% if page.hero %}
+  <div class="hero" style="background-image: url({{ page.hero }});"></div>
+{% endif %}

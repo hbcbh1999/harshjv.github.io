@@ -1,0 +1,31 @@
+%center-text {
+  text-align: center;
+}
+
+%mute-text {
+  color: $mute-color;
+}
+
+%default-margin-bottom {
+  margin-bottom: $base-spacing-unit;
+}
+
+%half-margin-bottom {
+  margin-bottom: $base-spacing-unit / 2;
+}
+
+%double-margin-bottom {
+  margin-bottom: $base-spacing-unit * 2;
+}
+
+%default-margin-top {
+  margin-top: $base-spacing-unit;
+}
+
+%half-margin-top {
+  margin-top: $base-spacing-unit / 2;
+}
+
+%double-margin-top {
+  margin-top: $base-spacing-unit * 2;
+}

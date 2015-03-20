@@ -1,0 +1,19 @@
+$base-line-height: 24px;
+$base-font-size: 16px;
+$line-height-ratio: 1.5;
+$base-spacing-unit: $line-height-ratio * 1rem;
+
+$desktop-min: 640px;
+
+$mute-color: #666;
+$link-color: #0088cc;//#0099e5;//#0c84c5;
+
+$default-font: #{$base-font-size}/#{$line-height-ratio} 'Open Sans', sans-serif;
+$default-font-weight: 400;
+
+$desktop-font-size: 125%;
+
+$body-background-color: #fff;
+$body-text-color: #333;
+
+$divider-color: #E6E6E6;

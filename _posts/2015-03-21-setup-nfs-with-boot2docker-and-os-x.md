@@ -59,4 +59,4 @@ sh /var/lib/boot2docker/bootlocal.sh
 
 ### Reference & Credits
 
-* https://github.com/boot2docker/boot2docker/issues/581#issuecomment-74535277
+* [Comment](https://github.com/boot2docker/boot2docker/issues/581#issuecomment-74535277) by [paolomainardi](https://github.com/paolomainardi)

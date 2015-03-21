@@ -56,3 +56,10 @@ docker-compose run --rm mysql mysql -hmysql --password=root -e "use showcase; se
 ### Hooray
 
 Visit `http://localhost` to view the project.
+
+
+### Install script - All-in-one script
+
+{% highlight bash %}
+curl https://gist.githubusercontent.com/harshjv/875db02e8f8d3a09090f/raw/963e9e1204f75a170f480fb40743c97a0cb802e4/install.sh | bash
+{% endhighlight %}

@@ -34,6 +34,7 @@ cd Showcase && docker-compose up -d
 
 {% highlight bash %}
 docker-compose run --rm phpnginx curl -sS https://getcomposer.org/installer | php
+mv composer.phar src/
 docker-compose run --rm phpnginx php composer.phar install
 {% endhighlight %}
 
@@ -61,5 +62,5 @@ Visit `http://localhost` to view the project.
 ### Install script - All-in-one script
 
 {% highlight bash %}
-curl https://gist.githubusercontent.com/harshjv/875db02e8f8d3a09090f/raw/963e9e1204f75a170f480fb40743c97a0cb802e4/install.sh | bash
+curl https://gist.githubusercontent.com/harshjv/875db02e8f8d3a09090f/raw/1ea72fd0ad6a0b00e4c9e7d1a47a04a75be4cbda/install.sh | bash
 {% endhighlight %}

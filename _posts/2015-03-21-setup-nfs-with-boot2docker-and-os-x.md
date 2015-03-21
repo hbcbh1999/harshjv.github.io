@@ -55,3 +55,8 @@ sudo mount 192.168.59.3:/Users /Users -o rw,async,noatime,rsize=32768,wsize=3276
 {% highlight bash %}
 sh /var/lib/boot2docker/bootlocal.sh
 {% endhighlight %}
+
+
+### Reference & Credits
+
+* https://github.com/boot2docker/boot2docker/issues/581#issuecomment-74535277

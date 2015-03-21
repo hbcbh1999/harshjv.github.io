@@ -26,7 +26,7 @@ git clone https://github.com/harshjv/Showcase.git
 ### Run containers
 
 {% highlight bash %}
-cd Showcase &&  docker-compose up -d
+cd Showcase && docker-compose up -d
 {% endhighlight %}
 
 

@@ -12,7 +12,6 @@ categories:
 
 Run [Showcase](https://github.com/harshjv/Showcase "Showcase") project using [Docker](http://www.docker.com "Docker").
 
-
 > This post presumes that **docker** & **docker-compose** are already installed on your system.
 
 ## Steps
@@ -23,12 +22,13 @@ Run [Showcase](https://github.com/harshjv/Showcase "Showcase") project using [Do
 git clone https://github.com/harshjv/Showcase.git
 {% endhighlight %}
 
+
 ### Run containers
 
 {% highlight bash %}
-cd Showcase
-docker-compose up -d
+cd Showcase &&  docker-compose up -d
 {% endhighlight %}
+
 
 ### Install project dependencies using Composer
 
@@ -37,6 +37,7 @@ docker-compose run --rm phpnginx curl -sS https://getcomposer.org/installer | ph
 docker-compose run --rm phpnginx php composer.phar install
 {% endhighlight %}
 
+
 ### Setup database
 
 {% highlight bash %}
@@ -44,12 +45,14 @@ docker-compose run --rm mysql mysql -hmysql --password=root -e "create database 
 docker-compose run --rm phpnginx php artisan migrate --seed
 {% endhighlight %}
 
-### Hooray
-
-Visit `http://localhost` to view the project.
 
 ### Get departmental tokens
 
 {% highlight bash %}
 docker-compose run --rm mysql mysql -hmysql --password=root -e "use showcase; select * from departments;"
 {% endhighlight %}
+
+
+### Hooray
+
+Visit `http://localhost` to view the project.

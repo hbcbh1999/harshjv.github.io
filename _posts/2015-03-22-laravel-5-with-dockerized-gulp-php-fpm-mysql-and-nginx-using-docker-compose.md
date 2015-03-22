@@ -1,8 +1,11 @@
 ---
-published: false
+layout: post
 title: "Laravel 5 with Dockerized Gulp, PHP-FPM, MySQL and nginx using docker-compose"
 description: "Laravel 5 with Dockerized Gulp, PHP-FPM, MySQL and nginx using docker-compose"
-layout: post
+categories:
+  - docker
+  - laravel
+  - open source
 ---
 
 ## Objective

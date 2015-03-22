@@ -209,6 +209,7 @@ img {
 blockquote {
   @extend %default-margin-bottom;
   margin-left: 0;
+  margin-right: 0;
   border-left: 5px solid $mute-color;
   padding-left: $base-spacing-unit;
 }

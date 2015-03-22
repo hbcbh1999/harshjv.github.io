@@ -8,7 +8,7 @@ sitemap:
 
 <div class="about-blurb">
   <h1>Hello. I'm Harsh Vakharia.</h1>
-  <p>I'm a Computer Engineering student living in <a href="http://en.wikipedia.org/wiki/Surat" target="_blank">Surat, IN</a>. My preferred programming languages are C, C++, Java and PHP. I like to Dockerize apps &amp; love photography.</p>
+  <p>Computer Engineering undergrad student living in <a href="http://en.wikipedia.org/wiki/Surat" target="_blank">Surat, IN</a>.</p>
   <p class="about-blurb__icons">
     <a href="{{ site.author.github.link }}"><i class="icon-github"></i></a>
     <a href="{{ site.author.twitter.link }}"><i class="icon-twitter"></i></a>
@@ -21,7 +21,7 @@ sitemap:
 <ul class="recent-posts">
   {% for post in site.posts limit:5 %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title | truncatewords: 7 }}</a>
       <span class="post-date">{{ post.date | date_to_string }}</span>
     </li>
   {% endfor %}

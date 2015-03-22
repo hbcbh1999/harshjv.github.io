@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Laravel 5 with Dockerized Gulp, PHP-FPM, MySQL and nginx using docker-compose"
-description: "Laravel 5 with Dockerized Gulp, PHP-FPM, MySQL and nginx using docker-compose"
+title: "Laravel 5 with Dockerized Gulp, PHP-FPM, MySQL and nginx"
+description: "Laravel 5 with Dockerized Gulp, PHP-FPM, MySQL and nginx"
 categories:
   - docker
   - laravel
@@ -37,7 +37,7 @@ docker-compose run --rm phpnginx php installer
 
 ### Install Laravel 5 using Composer
 
-{% highlight bash %} 
+{% highlight bash %}
 docker-compose run --rm phpnginx php composer.phar create-project laravel/laravel src --prefer-dist
 {% endhighlight %}
 

@@ -60,16 +60,11 @@ hr {
 
 pre {
   @extend %default-margin-bottom;
-
-  -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
-  -moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
-  box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
   overflow: auto;
   white-space: pre;
   padding: 0.5em 1em;
-  border: 1px solid #e4e4e4;
-  border-radius: 3px;
-  background: #fafafa;
+  border: 1px solid #999;
+  border-radius: 4px;
 
   font-size: 0.87rem;
   line-height: 1.71;

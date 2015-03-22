@@ -62,5 +62,5 @@ Visit [http://localhost](http://localhost "http://localhost") to view the projec
 #### Install script - All-in-one script
 
 {% highlight bash %}
-curl https://gist.github.com/harshjv/875db02e8f8d3a09090f/raw/f535ca306c2279f8f06ca2b4a6a7a64f39805bef/install.sh | bash
+curl https://gist.githubusercontent.com/harshjv/875db02e8f8d3a09090f/raw/f535ca306c2279f8f06ca2b4a6a7a64f39805bef/install.sh | bash
 {% endhighlight %}

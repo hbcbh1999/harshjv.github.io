@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Run Showcase project using Docker
+title: Showcase project with Docker
 description: Quick steps to run Showcase project using Docker
 categories:
   - projects
@@ -33,8 +33,8 @@ cd Showcase && docker-compose up -d
 #### Install project dependencies using Composer
 
 {% highlight bash %}
-docker-compose run --rm phpnginx curl -sS https://getcomposer.org/installer | php
-mv composer.phar src/
+docker-compose run --rm phpnginx curl -O https://getcomposer.org/installer
+docker-compose run --rm phpnginx php installer
 docker-compose run --rm phpnginx php composer.phar install
 {% endhighlight %}
 
@@ -62,5 +62,5 @@ Visit [http://localhost](http://localhost "http://localhost") to view the projec
 #### Install script - All-in-one script
 
 {% highlight bash %}
-curl https://gist.githubusercontent.com/harshjv/875db02e8f8d3a09090f/raw/1ea72fd0ad6a0b00e4c9e7d1a47a04a75be4cbda/install.sh | bash
+curl https://gist.github.com/harshjv/875db02e8f8d3a09090f/raw/f535ca306c2279f8f06ca2b4a6a7a64f39805bef/install.sh | bash
 {% endhighlight %}

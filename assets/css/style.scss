@@ -205,3 +205,9 @@ img {
     border-radius: 50%;
   }
 }
+
+blockquote {
+  @extend %default-margin-bottom;
+  border-left: 5px solid $mute-color;
+  padding-left: $base-spacing-unit;
+}

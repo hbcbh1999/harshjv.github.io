@@ -57,6 +57,6 @@ sh /var/lib/boot2docker/bootlocal.sh
 {% endhighlight %}
 
 
-### Reference & Credits
+### References & Credits
 
 * [Comment](https://github.com/boot2docker/boot2docker/issues/581#issuecomment-74535277) by [paolomainardi](https://github.com/paolomainardi)

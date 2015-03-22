@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Setup NFS with boot2docker and OS X
-description: Setup NFS with boot2docker and OS X
+title: Configure NFS with boot2docker and OS X
+description: Configure NFS with boot2docker and OS X
 categories:
   - docker
   - boot2docker
-  - osx
+  - os x
   - open source
 ---
 
@@ -26,7 +26,7 @@ sudo echo "/Users -mapall=`whoami`:staff `boot2docker ip`" >> /etc/exports
 {% endhighlight %}
 
 
-### Restart nfsd
+### Restart NFS server daemon
 
 {% highlight bash %}
 sudo nfsd stop && sudo nfsd start

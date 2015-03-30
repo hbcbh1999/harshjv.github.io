@@ -1,7 +1,7 @@
 language: ruby
 rvm:
     - 2.1
-script: "bundle exec jekyll build && bundle exec htmlproof ./_site --href-ignore (.*?(\blocalhost\b)[^$]*)$"
+script: "bundle exec jekyll build && bundle exec htmlproof ./_site --href-ignore '(.*?(\blocalhost\b)[^$]*)$'"
 
 branches:
     only:

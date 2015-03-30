@@ -36,3 +36,4 @@ sass:
   style:        :compressed
 disqus:
   shortname:    harshjv
+exclude:        [vendor]

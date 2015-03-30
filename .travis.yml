@@ -2,9 +2,7 @@ language: ruby
 rvm:
     - 2.1
 
-localhost_regex: !ruby/regexp '(.*?(\blocalhost\b)[^$]*)$'
-
-script: "bundle exec jekyll build && bundle exec htmlproof ./_site --href-ignore {{ localhost_regex }}"
+script: "bundle exec jekyll build && bundle exec htmlproof ./_site --href-ignore http://localhost/"
 
 branches:
     only:

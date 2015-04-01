@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Setup Travis CI LaTeX PDF build
-description: Setup Travis CI LaTeX PDF build
+title: Setup LaTeX PDF build using Travis CI
+description: Setup LaTeX PDF build using Travis CI
 categories:
   - travis ci
   - latex

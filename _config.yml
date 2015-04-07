@@ -5,7 +5,7 @@ logo:
   alt:          Harsh Vakharia's blog logo
 description:    Thoughts on technical stuff
 markdown:       redcarpet
-pygments:       true
+highlighter:    pygments
 permalink:      /blog/:title
 author:
   name:         Harsh Vakharia

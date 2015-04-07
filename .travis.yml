@@ -1,13 +1,14 @@
 language: ruby
-rvm:
-    - 2.1
 
-script: "bundle exec jekyll build && bundle exec htmlproof ./_site --href-ignore http://localhost"
+rvm:
+  - 2.1
+
+script: "bundle exec jekyll build"
 
 branches:
-    only:
-        - master
+  only:
+    - master
 
 env:
-    global:
-        - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true

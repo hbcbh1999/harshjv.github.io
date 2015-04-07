@@ -5,16 +5,16 @@
 }
 
 .post-header {
-  @extend %double-margin-bottom, %center-text;
+  @extend %double-margin-bottom;
 
   width: 100%;
 
   .post-header__title {
-    margin: 0;
+    @extend %half-margin-bottom;
   }
 
   .post-date {
-    @extend %half-margin-bottom;
+    margin-bottom: 0;
   }
 
   .post-header__social {}
@@ -45,18 +45,8 @@
     }
 
     .post-date {
+      @extend %half-margin-bottom;
       font-size: 0.8em;
-      float: none;
-      width: auto;
-
-      @media screen and (min-width: $desktop-min) {
-        /* Not working when using inline/inline-block, maybe https://bugs.webkit.org/show_bug.cgi?id=53166 */
-        display: inline-table;
-        float: left;
-        line-height: 1.8;
-        vertical-align: middle;
-        width: 125px;
-      }
     }
   }
 }

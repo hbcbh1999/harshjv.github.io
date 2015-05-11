@@ -25,7 +25,7 @@ git clone https://github.com/harshjv/docker-laravel.git
 ### Run services
 
 {% highlight bash %}
-docker-composer up
+docker-compose up
 {% endhighlight %}
 
 ### Download Composer

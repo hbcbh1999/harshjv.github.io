@@ -63,8 +63,8 @@ pre {
   overflow: auto;
   white-space: pre;
   padding: 0.5em 1em;
-  border: 1px solid #999;
-  background: #fbfbfb;
+  border: 5px solid #ddd;
+  background: #fff;
   border-radius: 4px;
 
   font-size: 0.87rem;
@@ -206,6 +206,6 @@ blockquote {
   @extend %default-margin-bottom;
   margin-left: 0;
   margin-right: 0;
-  border-left: 5px solid $mute-color;
+  border-left: 5px solid #ddd;
   padding-left: $base-spacing-unit;
 }

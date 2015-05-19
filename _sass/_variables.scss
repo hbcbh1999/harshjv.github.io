@@ -1,19 +1,40 @@
-$base-line-height: 24px;
-$base-font-size: 16px;
-$line-height-ratio: 1.5;
-$base-spacing-unit: $line-height-ratio * 1rem;
+$font-family: 'Source Sans Pro', sans-serif;
+$font-size: 16px;
+$line-height: 1.6;
 
-$desktop-min: 640px;
+$min-width-breakpoint: 32em;
 
-$mute-color: #666;
-$link-color: #0088cc;//#0099e5;//#0c84c5;
+$body-padding: 2rem 1.5rem;
+$font-color: #444;
+$background-color: #fff;
 
-$default-font: #{$base-font-size}/#{$line-height-ratio} 'Open Sans', sans-serif;
-$default-font-weight: 400;
+$heading-color: darken($font-color, 12);
+$strong-color: lighten($heading-color, 5);
+$small-color: lighten($font-color, 25);
 
-$desktop-font-size: 125%;
+$divider-color: lighten($small-color, 25);
 
-$body-background-color: #fff;
-$body-text-color: #333;
+$link-color: darken($font-color, 10);
+$link-border-color: $divider-color;
+$link-border-hover-color: $small-color;
 
-$divider-color: #E6E6E6;
+$table-border-color: $divider-color;
+$table-background-even: #fff;
+$table-background-odd: darken($table-background-even, 2);
+
+$abbr-color: lighten($link-color, 8);
+$abbr-border-color: $link-border-color;
+
+$blockquote-color: $small-color;
+$blockquote-border-color: $divider-color;
+
+$code-background-color: darken(#fff, 3);
+$code-color: #bf616a;
+$code-border-color: darken($code-background-color, 8);
+$code-radius: 3px;
+
+$highlight-background-color: $code-background-color;
+$highlight-border-color: $code-border-color;
+$highlight-lineno-color: $divider-color;
+
+$post-date-color: $small-color;

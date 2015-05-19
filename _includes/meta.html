@@ -1,21 +1,10 @@
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-{% if page.description %}
-  <meta name="description" content="{{ page.description }}">
-{% else %}
-  <meta name="description" content="{{ site.description }}">
-{% endif %}
-
 <meta name="author" content="{{ site.author.name }}">
 
 <link rel="author" href="{{ site.author.google_plus.link }}">
-<link href="{{ site.url }}{{ page.url | remove: "index.html" }}" rel="canonical">
+<link href="{{ page.url | prepend:site.baseurl | remove: "index.html" }}" rel="canonical">
 
-<!-- Twitter Card data -->
 <meta name="twitter:site" content="@{{ site.author.twitter.username }}">
-<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:title" content="{{ page.title }} &mdash; {{ site.title }}">
 
 {% if page.description %}
 <meta name="twitter:description" content="{{ page.description }}">
@@ -26,17 +15,20 @@
 {% endif %}
 <meta name="twitter:creator" content="@{{ site.author.twitter.username }}">
 
-<!-- Open Graph data -->
-<meta property="og:title" content="{{ page.title }}" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-<meta property="og:image" content="{{ site.url }}/assets/logo.png" />
+<meta property="og:title" content="{{ page.title }} &mdash; {{ site.title }}">
+<meta property="og:type" content="article">
+<meta property="og:url" content="{{ page.url | prepend:site.baseurl }}">
 
-{% if page.description %}
-<meta property="og:description" content="{{ page.description }}" />
+{% if page.image %}
+<meta property="og:image" content="{{ page.image | prepend:site.baseurl }}">
 {% else %}
-<meta property="og:description" content="{{ site.description }}" />
+<meta property="og:image" content="{{ '/assets/images/logo.png' | prepend:site.baseurl }}">
 {% endif %}
 
-<meta property="og:site_name" content="{{ site.name }}" />
-<meta property="fb:admins" content="{{ site.facebook.numeric_id }}" />
+{% if page.description %}
+<meta property="og:description" content="{{ page.description }}">
+{% else %}
+<meta property="og:description" content="{{ site.description }}">
+{% endif %}
+
+<meta property="og:site_name" content="{{ site.title }}">

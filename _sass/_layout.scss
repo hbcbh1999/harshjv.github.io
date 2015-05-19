@@ -1,0 +1,130 @@
+@mixin after-border($margin:3rem auto) {
+  &:after {
+    display: block;
+    content: "";
+    width: 150px;
+    height: 1px;
+    margin: $margin;
+    background-color: $divider-color;
+  }
+}
+
+@mixin container() {
+  max-width: $min-width-breakpoint;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.social-icons {
+  font-size: 2rem;
+  margin-top: -1rem;
+
+  a {
+    border: 0;
+    margin-right: 0.1rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.masthead, .content, .footer {
+  @include container();
+}
+
+.masthead, .post, .related, .recent, .page, .comments {
+  @include after-border();
+}
+
+.related, .recent {
+  .related-title, .recent-title {
+    margin-top: 0;
+  }
+}
+
+.masthead {
+  margin-bottom: 2rem;
+
+  .masthead-title {
+    margin: 0;
+    padding: 0;
+
+    a {
+      text-decoration: none;
+      border: 0;
+    }
+
+    @media (min-width: $min-width-breakpoint) {
+      float: left;
+    }
+  }
+
+  .masthead-nav {
+    display: inline-block;
+    padding-left: 0;
+    margin-bottom: 0;
+
+    a {
+      text-decoration: none;
+      border: 0;
+
+      & + a {
+        margin-left: 0.6rem;
+      }
+    }
+  }
+
+  @media (min-width: $min-width-breakpoint) {
+    padding-top: 1rem;
+    text-align: right;
+  }
+
+}
+
+.footer {
+  margin-bottom: 1rem;
+  text-align: center;
+
+  a[rel="license"]:first-child {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.posts {
+  padding-bottom: 1rem;
+
+  .posts-item {
+    margin-bottom: 1rem;
+
+    @media (min-width: $min-width-breakpoint) {
+      margin-bottom: 0.2rem;
+    }
+  }
+
+  a {
+    border: 0;
+  }
+
+  time {
+    display: block;
+    color: $post-date-color;
+
+    @media (min-width: $min-width-breakpoint) {
+      margin-top: 2px;
+      float: right;
+    }
+  }
+}

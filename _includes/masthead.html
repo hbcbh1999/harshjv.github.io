@@ -1,0 +1,13 @@
+<header class="masthead">
+  <h3 class="masthead-title">
+    <a href="{{ '/' | prepend:site.baseurl }}" title="Home">{{ site.title }}</a>
+  </h3>
+  <nav class="masthead-nav">
+    {% assign pages_list = site.pages | sort:'nav_index' %}
+    {% for node in pages_list %}
+      {% if node.nav_index != null %}
+        <a href="{{ node.url | prepend:site.baseurl }}" class="nav-item">{{ node.title }}</a>
+      {% endif %}
+    {% endfor %}
+  </nav>
+</header>

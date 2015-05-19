@@ -1,0 +1,77 @@
+code,
+pre {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+}
+
+code {
+  padding: .25em .5em;
+  font-size: 85%;
+  color: $code-color;
+  background-color: $code-background-color;
+  border-radius: $code-radius;
+  border: 1px solid $code-border-color;
+}
+
+pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+pre code {
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
+  background-color: transparent;
+}
+
+.highlight {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: .8rem;
+  line-height: 1.4;
+  background-color: $highlight-background-color;
+  border-radius: .25rem;
+  border: 1px solid $highlight-border-color;
+
+  pre {
+    margin-bottom: 0;
+    overflow-x: auto;
+  }
+
+  code {
+    border: 0;
+  }
+
+  .lineno {
+    display: inline-block;
+    padding-right: .75rem;
+    padding-left: .25rem;
+    color: $highlight-lineno-color;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+  }
+}
+
+
+// Gist via GitHub Pages
+// .gist .gist-file {
+//   font-family: Menlo, Monaco, "Courier New", monospace !important;
+// }
+// .gist .markdown-body {
+//   padding: 15px;
+// }
+// .gist pre {
+//   padding: 0;
+//   background-color: transparent;
+// }
+// .gist .gist-file .gist-data {
+//   font-size: .8rem !important;
+//   line-height: 1.4;
+// }
+// .gist code {
+//   padding: 0;
+//   color: inherit;
+//   background-color: transparent;
+//   border-radius: 0;
+// }

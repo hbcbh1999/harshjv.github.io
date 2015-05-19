@@ -1,39 +1,53 @@
-name:           Harsh Vakharia
-url:            http://harshjv.github.io
-logo:
-  path:         /assets/images/logo.png
-  alt:          Harsh Vakharia's blog logo
-description:    Thoughts on technical stuff
-markdown:       redcarpet
-highlighter:    pygments
-permalink:      /blog/:title
+title:               Harsh Vakharia
+
+# site url without a trailing '/'
+# i.e. http://www.example.com
+url:                 http://harshjv.github.io
+
+# baseurl without a trailing '/'
+# i.e. /my_project or leave it blank ''
+baseurl:             ''
+description:         Thoughts on technical stuff
+
+paginate_path:       /blog/page/:num/
+paginate:            15
+
+permalink:           /blog/:title/
+
 author:
-  name:         Harsh Vakharia
-  email:
-    link:       "mailto:&#104;&#097;&#114;&#115;&#104;&#106;&#118;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"
+  name:              Harsh Vakharia
+  # Plain email or encoded email (http://ctrlq.org/encode/)
+  email:             "&#104;&#097;&#114;&#115;&#104;&#106;&#118;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"
   docker:
-    username:   harshjv
-    link:       https://hub.docker.com/u/harshjv
+    username:        harshjv
+    link:            https://hub.docker.com/u/harshjv
+  stackexchange:
+    link:            http://stackexchange.com/users/1961153/harshjv
   google_plus:
-    username:   HarshVakhariaJ
-    link:       https://plus.google.com/+HarshVakhariaJ
+    username:        HarshVakhariaJ
+    link:            https://plus.google.com/+HarshVakhariaJ
   linkedin:
-    username:   harshjv
-    link:       http://in.linkedin.com/in/harshjv
+    username:        harshjv
+    link:            http://in.linkedin.com/in/harshjv
   twitter:
-    username:   harshjv
-    link:       https://twitter.com/harshjv
+    username:        harshjv
+    link:            https://twitter.com/harshjv
   github:
-    username:   harshjv
-    link:       https://github.com/harshjv
-  gravatar:
-    hash:       58ad5652420c75cc05a0920f2014ba2c
-    link:       http://www.gravatar.com/avatar/58ad5652420c75cc05a0920f2014ba2c
-  facebook:
-    numeric_id: 1684195558
-sass:
-  sass_dir:     _sass
-  style:        :compressed
+    username:        harshjv
+    link:            https://github.com/harshjv
+
 disqus:
-  shortname:    harshjv
-exclude:        [vendor]
+  shortname:         harshjv
+
+# your analytics id
+google_analytics:
+  id:                UA-60794187-1
+
+sass:
+  sass_dir:          _sass
+  style:             :compressed
+
+the_wall:
+  link:              https://github.com/the-wall/butler
+
+exclude:             [vendor]

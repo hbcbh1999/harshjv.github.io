@@ -2,11 +2,6 @@
 layout: post
 title: Setup LaTeX PDF build using Travis CI
 description: Setup LaTeX PDF build using Travis CI
-categories:
-  - travis ci
-  - latex
-  - pdf
-  - open source
 ---
 
 ## Objective
@@ -15,26 +10,22 @@ Setup [Travis CI](https://travis-ci.org) continuous integration and deployment s
 
 > This post presumes that, `git`, `ruby` and `gem` are already installed.
 
-
-### Steps
-
-
-### Clone `harshjv/travis-ci-latex-pdf`
+## 1. Clone `harshjv/travis-ci-latex-pdf`
 
 {% highlight bash %}
 git clone https://github.com/harshjv/travis-ci-latex-pdf.git
 {% endhighlight %}
 
 
-### Tex files
+## 2. Add tex files
 
 Add your **tex** files to `tex` folder of your repository.
 
 
-### Configure Travis-CI
+## 3. Configure Travis-CI
 
 
-#### Setup Github repo
+### 3.1. Setup Github repo
 
 * If you have forked this repo, then directly go to **Settings** option, otherwise, first create a new repository on Github and then, then go to **Settings** option of your repository.
 
@@ -47,14 +38,14 @@ Add your **tex** files to `tex` folder of your repository.
 * Add service
 
 
-#### Setup Travis CI
+### 3.2. Setup Travis CI
 
 * Go to [Travis CI](https://travis-ci.org)
 
 * Toggle on your repository
 
 
-#### Install Travis Command-line Tool `.travis.yml`
+### 3.3. Install Travis Command-line Tool
 
 
 To configure Travis build to deploy generated PDF to Github releases, we have to get Github OAuth Token. To get it and securely embed it into `.travis.yml` file, we have to install **Travis Command-line Tool**
@@ -64,10 +55,10 @@ gem install travis -v 1.7.5 --no-rdoc --no-ri
 travis setup releases
 {% endhighlight %}
 
-Provide your Github username and password, to generate token and encrypt it on the go. This will also add configuration to our `.travis.yml` file.
+Provide your Github username and password, to generate token and encrypt it on the go. This will also add it to your `.travis.yml` file.
 
 
-#### Configure `.travis.yml`
+### 3.4. Configure `.travis.yml`
 
 To deploy our file before get removed by Travis on `clean`, we have to disable it. Modify `.travis.yml` content according to following code.
 
@@ -88,7 +79,7 @@ deploy:
     tags: true
 {% endhighlight %}
 
-### Git commit, push and tag
+## 4. Git commit, push and tag
 
 In order to build PDF, we must commit changes and tag it to a version/release. Then push it to remote Github repository.
 
@@ -99,6 +90,6 @@ git tag draft-1
 git push -u origin master --tags
 {% endhighlight %}
 
-### Hooray
+## 5. Hooray
 
 After a successful build, you can see your PDF files available at `releases` under your Github repository.

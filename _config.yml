@@ -4,6 +4,9 @@ title:               Harsh Vakharia
 # i.e. http://www.example.com
 url:                 http://harshjv.github.io
 
+keywords:            'web, android, technology, docker, php, java, python, blog, computer engineering, surat, gujarat, india'
+keywords_suffix:     ', harshjv, harsh vakharia'
+
 # baseurl without a trailing '/'
 # i.e. /my_project or leave it blank ''
 baseurl:             ''

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Laravel 5 with dockerized Gulp, PHP-FPM, MySQL and nginx"
-description: "Laravel 5 with dockerized Gulp, PHP-FPM, MySQL and nginx"
+description: "Use Laravel 5 with dockerized Gulp, PHP-FPM, MySQL and nginx"
+keywords: "laravel, laravel 5, docker, gulp, phpfpm, php-fpm, mysql, nginx, lemp, lemp stack, installation, boot2docker, linux, ubuntu, osx, os x, mac, windows"
 ---
 
 ## Objective

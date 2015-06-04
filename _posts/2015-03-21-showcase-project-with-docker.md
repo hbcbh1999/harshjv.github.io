@@ -2,6 +2,7 @@
 layout: post
 title: Showcase project with Docker
 description: Quick steps to run Showcase project using Docker
+keywords: "showcase, showcase project, laravel, laravel 5, docker, phpfpm, php-fpm, mysql, nginx, lemp, lemp stack, installation, linux, ubuntu, osx, os x, mac, windows"
 ---
 
 ## Objective

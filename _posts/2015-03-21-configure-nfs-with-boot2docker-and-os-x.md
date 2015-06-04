@@ -2,6 +2,7 @@
 layout: post
 title: Configure NFS with boot2docker and OS X
 description: Configure NFS with boot2docker and OS X
+keywords: "docker, boot2docker, nfs, permission, root permission, permission issue, write permission, configure, osx, os x, mac"
 ---
 
 ## Problem

@@ -2,6 +2,7 @@
 layout: post
 title: Setup LaTeX PDF build using Travis CI
 description: Setup LaTeX PDF build using Travis CI
+keywords: "latex, pdf, build, travis, travis ci, continuous integration, continuous deployment, git, linux, ubuntu, osx, os x, mac, windows"
 ---
 
 ## Objective

@@ -33,11 +33,11 @@
   }
 }
 
-.masthead, .content, .footer {
+.masthead, .content, .footer, .ads {
   @include container();
 }
 
-.masthead, .post, .related, .recent, .page, .comments {
+.masthead, .post, .related, .recent, .page, .comments, .ads {
   @include after-border();
 }
 

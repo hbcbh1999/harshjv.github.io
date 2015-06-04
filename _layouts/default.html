@@ -27,7 +27,9 @@
   </head>
   <body>
     {% include masthead.html %}
-    {% include ads.html %}
+    {% if page.id %}
+      {% include ads.html %}
+    {% endif %}
     <main class="content">
       {{ content }}
     </main>

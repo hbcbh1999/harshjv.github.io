@@ -51,3 +51,6 @@ the_wall:
   link:              https://github.com/the-wall/butler
 
 exclude:             [vendor]
+
+gems:
+  - jekyll-sitemap

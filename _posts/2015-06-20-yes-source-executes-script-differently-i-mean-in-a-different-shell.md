@@ -26,7 +26,7 @@ To make it more clear, have a look at the following script, which sets the alias
 alias myproject='cd ~/Documents/Projects/2015/NewProject'
 {% endhighlight %}
 
-Now we have two choices to execute this script. But with *only* one option, the  desired alias for current shell can be created among these two options.
+Now we have two choices to execute this script. But with *only* one option, the  desired alias for your ***current*** shell can be created among these two options.
 
 
 ## Option 1 `./make_alias`

@@ -80,7 +80,7 @@ deploy:
     tags: true
 {% endhighlight %}
 
-## 4. Git commit, push and tag
+## 4. Git commit, tag and push
 
 In order to build PDF, we must commit changes and tag it to a version/release. Then push it to remote Github repository.
 

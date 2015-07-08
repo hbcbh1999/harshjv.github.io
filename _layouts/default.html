@@ -32,14 +32,14 @@
     <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/atom.xml' | prepend:site.baseurl }}">
   </head>
   <body>
-    {% include google_tag_manager.html %}
     {% include masthead.html %}
     {% if page.id %}
-      {% include ads.html %}
+      {% include header_ad.html %}
     {% endif %}
     <main class="content">
       {{ content }}
     </main>
+    {% include footer_ad.html %}
     {% include footer.html %}
     {% include analytics.html %}
   </body>

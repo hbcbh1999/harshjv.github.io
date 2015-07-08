@@ -40,7 +40,7 @@ sudo chmod 755 /var/lib/boot2docker/bootlocal.sh"
 {% endhighlight %}
 
 
-## 6. Restart boot2docker or run the script
+## 5. Restart boot2docker or run the script
 
 {% highlight bash %}
 sh /var/lib/boot2docker/bootlocal.sh

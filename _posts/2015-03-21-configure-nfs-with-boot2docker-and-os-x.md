@@ -28,6 +28,10 @@ echo "$HOME -alldirs -mapall=$(whoami) -network 192.168.59.0 -mask 255.255.255.0
 sudo nfsd restart
 {% endhighlight %}
 
+> If you don't want to use IP range for boot2docker and want to set a fix IP address which will be assigned to boot2docker every time, run `boot2docker config > $HOME/.boot2docker/profile` and change `LowerIP` and `UpperIP` to same IP e.g `192.168.59.103` in `$HOME/.boot2docker/profile`
+> 
+> See [boot2docker-cli configuration](https://github.com/boot2docker/boot2docker-cli#configuration)
+
 
 ## 4. Configure boot2docker
 

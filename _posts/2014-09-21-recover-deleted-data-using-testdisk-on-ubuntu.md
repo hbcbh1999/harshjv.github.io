@@ -21,7 +21,7 @@ TestDisk can -
 * Undelete files from FAT, exFAT, NTFS and ext2 filesystem
 * Copy files from deleted FAT, exFAT, NTFS and ext2/ext3/ext4 partitions
 
-(From http://www.cgsecurity.org/wiki/TestDisk)
+> For more details, [http://www.cgsecurity.org/wiki/TestDisk](http://www.cgsecurity.org/wiki/TestDisk)
 
 ## Installation
 

@@ -10,7 +10,7 @@ keywords: "shell, linux, command, unix, script execution, script"
 See how differently shell script is executed using `source`.
 
 
-## Basic
+## 1. Basic
 
 `source` command executes the provided script *(executable permission is **not mandatory**)* in the **current** shell environment, while `./` executes the provided **executable** script in a **new** shell.
 
@@ -19,17 +19,20 @@ See how differently shell script is executed using `source`.
 To make it more clear, have a look at the following script, which sets the alias, using a shell script file named, `make_alias`.
 
 
-## `make_alias` file
+## 2. `make_alias` file
 
 {% highlight bash %}
 #! /bin/bash
 alias myproject='cd ~/Documents/Projects/2015/NewProject'
 {% endhighlight %}
 
+
+## 3. Two options
+
 Now we have two choices to execute this script. But with *only* one option, the  desired alias for your ***current*** shell can be created among these two options.
 
 
-## Option 1 `./make_alias`
+### 3.1. Option 1 `./make_alias`
 
 Make script executable first.
 
@@ -38,21 +41,21 @@ chmod +x make_alias
 {% endhighlight %}
 
 
-### Execute
+#### 3.1.1. Execute
 
 {% highlight bash %}
 ./make_alias
 {% endhighlight %}
 
 
-### Verify
+#### 3.1.2. Verify
 
 {% highlight bash %}
 alias
 {% endhighlight %}
 
 
-#### Output
+#### 3.1.3. Output
 
 ***no alias for myproject***
 
@@ -62,12 +65,12 @@ alias
 Now, let's go with the second option.
 
 
-## Option 2 `source make_alias`
+## 3.2. Option 2 `source make_alias`
 
 > No need to make script executable while using `source`.
 
 
-### Execute
+#### 3.2.1. Execute
 
 {% highlight bash %}
 source make_alias
@@ -80,14 +83,14 @@ source make_alias
 {% endhighlight %}
 
 
-### Verify
+#### 3.2.2. Verify
 
 {% highlight bash %}
 alias
 {% endhighlight %}
 
 
-#### Output
+#### 3.2.3. Output
 
 {% highlight bash %}
 alias myproject='cd ~/Documents/Projects/2015/NewProject'
@@ -97,6 +100,6 @@ alias myproject='cd ~/Documents/Projects/2015/NewProject'
 **Yeah**, alias is set now.
 
 
-## Reference
+## 4. Reference
 
 * [My answer on SU](http://superuser.com/a/894748/432100)

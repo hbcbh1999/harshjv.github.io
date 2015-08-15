@@ -5,6 +5,8 @@ description: Recover deleted data using TestDisk on Ubuntu
 keywords: "data recovery, testdisk, data recovery using testdisk, recover deleted data, recover deleted data using testdisk, ubuntu"
 ---
 
+## 1. Introduction
+
 [TestDisk](http://www.cgsecurity.org/wiki/TestDisk) is an amazing data recovery tool available for Linux, Mac OS X and Windows under [GNU General Public License v2+](http://www.gnu.org/licenses/gpl.html).
 
 TestDisk can -
@@ -23,7 +25,7 @@ TestDisk can -
 
 > For more details, [http://www.cgsecurity.org/wiki/TestDisk](http://www.cgsecurity.org/wiki/TestDisk)
 
-## Installation
+## 2. Installation
 
 To install **TestDisk** on Ubuntu,
 
@@ -33,7 +35,7 @@ apt-get install testdisk
 
 You will need **root privileges** to install it, append `sudo` to invoke it as a root.
 
-## Recovery
+## 3. Recovery
 
 Open a terminal,
 

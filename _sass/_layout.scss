@@ -1,8 +1,8 @@
-@mixin after-border($margin:3rem auto) {
+@mixin after-border($margin:2rem auto) {
   &:after {
     display: block;
     content: "";
-    width: 150px;
+    width: 100px;
     height: 1px;
     margin: $margin;
     background-color: $divider-color;
@@ -37,7 +37,7 @@
   @include container();
 }
 
-.masthead, .post, .related, .recent, .page, .comments, .ads {
+.post, .related, .recent, .page, .comments, .ads {
   @include after-border();
 }
 
@@ -48,7 +48,9 @@
 }
 
 .masthead {
+  // font-family: 'Roboto Slab';
   margin-bottom: 2rem;
+  // text-align: center;
 
   .masthead-title {
     margin: 0;
@@ -61,7 +63,7 @@
       img {
         height: 33px;
         width: auto;
-        
+
         @media (min-width: $min-width-breakpoint) {
           margin-bottom: 0;
         }
@@ -69,7 +71,7 @@
     }
 
     @media (min-width: $min-width-breakpoint) {
-      float: left;
+      // float: left;
     }
   }
 
@@ -90,7 +92,7 @@
 
   @media (min-width: $min-width-breakpoint) {
     padding-top: 1rem;
-    text-align: right;
+    // text-align: right;
   }
 
 }
@@ -135,5 +137,32 @@
       margin-top: 2px;
       float: right;
     }
+  }
+}
+
+.fork-left {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0;
+
+  @media (min-width: $min-width-breakpoint) {
+    display: inline-block;
+  }
+}
+
+.fork-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+
+  img {
+    height: 80px;
+  }
+
+  @media (min-width: $min-width-breakpoint) {
+    display: none;
   }
 }

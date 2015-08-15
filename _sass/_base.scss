@@ -17,6 +17,8 @@ body {
   padding: $body-padding;
   color: $font-color;
   background-color: $background-color;
+  border-top: 5px solid #FF9933;
+  border-bottom: 5px solid #138808;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }

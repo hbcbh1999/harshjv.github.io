@@ -3,9 +3,9 @@ layout: default
 title: Hello
 ---
 
-<article class="post text-center">
+<article class="post">
   <header class="post-header">
-    <h1 class="post-title">Hello, I'm Harsh Vakharia.</h1>
+    <h2 class="post-title">Hello :)</h2>
   </header>
 
   <p class="social-icons">
@@ -20,9 +20,9 @@ title: Hello
 </article>
 
 <aside class="recent">
-  <h2 class="recent-title">Recent Posts</h2>
+  <h2 class="recent-title">Recent posts</h2>
   <nav class="posts">
-    {% for post in site.posts limit:3 %}
+    {% for post in site.posts limit:5 %}
       <div class="posts-item">
         <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b" }}</time></small>
         <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>

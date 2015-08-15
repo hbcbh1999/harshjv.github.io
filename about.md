@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-nav_index: 2
+nav_index: 3
 ---
 
 Born and raised in [Surat, India](http://en.wikipedia.org/wiki/Surat){:target="_blank"}, I'm pursuing a bachelor degree in Computer Engineering from [Sarvajanik College of Engineering and Technology](http://www.scet.ac.in){:target="_blank"}.

@@ -57,6 +57,15 @@
     a {
       text-decoration: none;
       border: 0;
+
+      @media (min-width: $min-width-breakpoint) {
+        margin-bottom: 30px;
+      }
+
+      img {
+        height: 33px;
+        width: auto;
+      }
     }
 
     @media (min-width: $min-width-breakpoint) {

@@ -1,5 +1,5 @@
-@mixin after-border($margin:2rem auto) {
-  &:after {
+@mixin before-border($margin:2rem auto) {
+  &:before {
     display: block;
     content: "";
     width: 100px;
@@ -37,8 +37,8 @@
   @include container();
 }
 
-.post, .related, .recent, .page, .comments, .ads {
-  @include after-border();
+.related, .recent, .footer {
+  @include before-border();
 }
 
 .related, .recent {

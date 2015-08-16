@@ -7,6 +7,9 @@
     {% for node in pages_list %}
       {% if node.nav_index != null %}
         <a href="{{ node.url | prepend:site.baseurl }}" class="nav-item">{{ node.title }}</a>
+        {% if node.title == 'Sketches' %}
+          <a href="http://harshjv.tumblr.com" class="nav-item">Photography</a>
+        {% endif %}
       {% endif %}
     {% endfor %}
   </nav>

@@ -147,6 +147,10 @@
   left: 0;
   border: 0;
 
+  img {
+    margin: 0;
+  }
+
   @media (min-width: $min-width-breakpoint) {
     display: inline-block;
   }
@@ -160,6 +164,7 @@
 
   img {
     height: 80px;
+    margin: 0;
   }
 
   @media (min-width: $min-width-breakpoint) {

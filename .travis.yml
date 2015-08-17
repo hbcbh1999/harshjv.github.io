@@ -1,0 +1,4 @@
+script:
+- jekyll build
+
+sudo: false

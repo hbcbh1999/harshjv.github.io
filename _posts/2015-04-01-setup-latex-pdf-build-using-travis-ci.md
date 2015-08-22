@@ -64,6 +64,8 @@ Provide your Github username and password, to generate token and encrypt it on t
 To deploy our file before get removed by Travis on `clean`, we have to disable it. Modify `.travis.yml` content according to following code.
 
 {% highlight yaml %}
+before_install:
+- "sudo apt-get update && sudo apt-get install --no-install-recommends texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra texlive-latex-recommended dvipng"
 script:
 - mkdir _build
 - pdflatex -output-directory _build tex/your_file_1.tex

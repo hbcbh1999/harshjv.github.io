@@ -3,7 +3,7 @@ rvm:
 - 2.1
 
 script:
-- jekyll build
+- bundle exec jekyll build
 
 sudo: false
 

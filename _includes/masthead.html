@@ -5,7 +5,7 @@
     {% for node in pages_list %}
       {% if node.nav_index != null %}
         {% if node.title == 'About' %}
-          <a href="{{ 'key.asc' | prepend:site.baseurl }}" class="nav-item" target="_blank">PGP Key</a>
+          <a href="/key.asc" class="nav-item" target="_blank">PGP Key</a>
         {% endif %}
         <a href="{{ node.url | prepend:site.baseurl }}" class="nav-item">{{ node.title }}</a>
         {% if node.title == 'Sketches' %}

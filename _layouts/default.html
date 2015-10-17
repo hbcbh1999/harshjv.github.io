@@ -35,13 +35,17 @@ layout: compress
   <body>
     {% include fork.html %}
     {% include masthead.html %}
+    {% comment %}
     {% if page.id %}
       {% include header_ad.html %}
     {% endif %}
+    {% endcomment %}
     <main class="content">
       {{ content }}
     </main>
+    {% comment %}
     {% include footer_ad.html %}
+    {% endcomment %}
     {% include footer.html %}
     {% include analytics.html %}
   </body>

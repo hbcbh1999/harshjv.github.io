@@ -1,7 +1,7 @@
 ---
 layout: page
 title: PGP Key
-permalink: /pgp/
+permalink: /pgp-key/
 nav_index: 4
 ---
 

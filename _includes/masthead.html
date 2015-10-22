@@ -4,9 +4,6 @@
     {% assign pages_list = site.pages | sort:'nav_index' %}
     {% for node in pages_list %}
       {% if node.nav_index != null %}
-        {% if node.title == 'About' %}
-          <a href="{{ '/key.asc' }}" class="nav-item" target="_blank">PGP Key</a>
-        {% endif %}
         <a href="{{ node.url | prepend:site.baseurl }}" class="nav-item">{{ node.title }}</a>
         {% if node.title == 'Sketches' %}
           <a href="http://harshjv.tumblr.com/" class="nav-item" target="_blank">Photography</a>
@@ -17,7 +14,7 @@
   <nav class="masthead-nav social-icons">
     <a href="{{ site.author.github.link }}" title="Github profile"><i class="icon icon-github"></i></a>
     <a href="{{ site.author.linkedin.link }}" title="LinkedIn profile"><i class="icon icon-linkedin"></i></a>
-    <a href="{{ site.author.email | prepend:'mailto:' }}" rel="nofollow" class="Email"><i class="icon icon-mail"></i></a>
+    <a href="{{ site.author.email.id | prepend:'mailto:' }}" rel="nofollow" class="Email"><i class="icon icon-mail"></i></a>
     <a href="{{ site.author.docker.link }}" title="Docker Hub profile"><i class="icon icon-docker"></i></a>
     <a href="{{ site.author.stackexchange.link }}" title="Stack Exchange profile"><i class="icon icon-stack-exchange"></i></a>
     <a href="{{ site.author.twitter.link }}" title="Twitter profile"><i class="icon icon-twitter"></i></a>

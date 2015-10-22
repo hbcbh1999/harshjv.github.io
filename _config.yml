@@ -20,7 +20,9 @@ permalink:           /blog/:title/
 author:
   name:              Harsh Vakharia
   # Plain email or encoded email (http://ctrlq.org/encode/)
-  email:             "&#104;&#097;&#114;&#115;&#104;&#106;&#118;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"
+  email:
+    id:              "harshjv@gmail.com"
+    htmlencode:      "&#104;&#097;&#114;&#115;&#104;&#106;&#118;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"
   docker:
     username:        harshjv
     link:            https://hub.docker.com/u/harshjv
@@ -31,7 +33,7 @@ author:
     link:            https://plus.google.com/+HarshVakhariaJ
   linkedin:
     username:        harshjv
-    link:            http://in.linkedin.com/in/harshjv
+    link:            https://linkedin.com/in/harshjv
   twitter:
     username:        harshjv
     link:            https://twitter.com/harshjv

@@ -143,7 +143,7 @@ Script for setup and building remains same. Put these script into individual fil
 
 ## 4. Git commit and push
 
-It's time to
+It's time to push the documents/changes.
 
 {% highlight bash %}
 git add .

@@ -16,7 +16,7 @@ $small-color: lighten($font-color, 25);
 $divider-color: lighten($small-color, 25);
 
 $link-color: darken($font-color, 10);
-$link-border-color: $divider-color;
+$link-border-color: lighten(#000080, 5%);
 $link-border-hover-color: $small-color;
 
 $table-border-color: $divider-color;

@@ -23,6 +23,7 @@
   margin-top: 0.2rem;
 
   a {
+    color: lighten($link-color, 5);
     border: 0;
     margin-right: 0.1rem;
 
@@ -52,9 +53,9 @@
   // text-align: center;
 
   .masthead-title {
-    font-family: 'Roboto Slab';
+    font-family: $heading-font-family;
+    font-weight: 700;
     font-size: 1.1rem;
-    // font-weight: 700;
     display: block;
     margin: 0;
     padding: 0;

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Document Building & Versioning with TeX Document, Git, Continuous Integration & Dropbox
-description: Document Building & Versioning with TeX Document, Git, Continuous Integration & Dropbox
-keywords: "latex, pdf, build, travis, travis ci, continuous integration, continuous deployment, git, linux, ubuntu, osx, os x, mac, windows"
+title: Document building & versioning with TeX document, Git, Continuous Integration & Dropbox
+description: Document building & versioning with TeX document, Git, Continuous Integration & Dropbox
+keywords: "tex, latex, xelatex, xetex, latex, pdf, build, dropbox, travis ci, semaphore ci, continuous integration, continuous deployment, git"
 ---
 
 ## Objective

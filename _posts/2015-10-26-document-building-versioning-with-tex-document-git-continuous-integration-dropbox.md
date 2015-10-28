@@ -60,7 +60,7 @@ Now for `docker/Dockerfile`, we will use [harshjv/texlive-2015](https://hub.dock
 
 {% highlight dockerfile %}
 FROM harshjv/texlive-2015
-RUN tlmgr update --all
+RUN tlmgr update --self --all
 {% endhighlight %}
 
 This will build docker image with latest packages for building tex documents.

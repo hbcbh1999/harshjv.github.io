@@ -5,6 +5,8 @@ description: Setup LaTeX PDF build using Travis CI
 keywords: "latex, pdf, build, travis, travis ci, continuous integration, continuous deployment, git, linux, ubuntu, osx, os x, mac, windows"
 ---
 
+> For advance workflow, follow this post: [Document building & versioning with TeX document, Git, Continuous Integration & Dropbox](/blog/document-building-versioning-with-tex-document-git-continuous-integration-dropbox/)
+
 ## Objective
 
 Setup [Travis CI](https://travis-ci.org) continuous integration and deployment service to build PDF from LaTeX document.

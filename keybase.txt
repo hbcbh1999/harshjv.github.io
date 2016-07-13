@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/harshjv
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://harshjv.github.io
+  * I am harshjv (https://keybase.io/harshjv) on keybase.
+  * I have a public key with fingerprint CE5D 456F 9BA2 EAAE 8547  E3D1 7423 0D3D 03D1 C608
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010134b0646dcc92e5dc2db6a40cde96e465706a299f50fff43734d0480d96b7e9530a",
+            "fingerprint": "ce5d456f9ba2eaae8547e3d174230d3d03d1c608",
+            "host": "keybase.io",
+            "key_id": "74230d3d03d1c608",
+            "kid": "010134b0646dcc92e5dc2db6a40cde96e465706a299f50fff43734d0480d96b7e9530a",
+            "uid": "c8eab8bc23d484e941b5e7bcaa65f219",
+            "username": "harshjv"
+        },
+        "service": {
+            "hostname": "harshjv.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1468394422,
+    "expire_in": 157680000,
+    "prev": "bcdea785b4abef7a9d47b12a45eac5ed75f01b89cc2a59412e837b092ebcf364",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMNDAnicrVJtUFRVGF4+diNmsEiUFkaUWzjOAHL3ft8NByVHAVGyImgEds6999zd
+G7C77l52+Zw+BqdERKTVTXQAGSsmGSk0omwGISGmpZglUqAATQjzE2osRWbqXqof
+zfSz8+ec857nec7zvPNeDAvShAbIT4VtCvIPhAT4eo+XaHL23eyqQDibUIYYK5BC
+uLzBIgE6ZVOhJCBGBDWgBpzgUIqgBJ5nMUgKPCZwFCBQXoAsBQmKpFEKYCwrkqgo
+igRO44SAEgwqsBRHQ5bEUYAkIKJkNUOH3SFZZUWWV3QIkhJZDmAQAMiQBA1xwUAT
+GI4KuIAqZ55CGYVosTlVhmKOA064UbIpNeViWrb3H/j/2XfJshzPQMAxHI/hAsEQ
+kCUMHAlpjgeAIkXMwKpAJ3RYQTFU0BbgcFpecSFVCYhSdEk8VPuqBvk3YKNZki0l
+3F+Z7A6bbONtReqzLNudRpUul9lVvBtypr+VTJxkFZReKgwXdDglmxUxGhQkL0uq
+tIGgGJwlCAxLQGCpXXJAk6QiSJpiUGWp/0CXIskpbQA0Q3IE4KBIA1YgaM6AAYKE
+gCehQJMiauAYlucxQCp5McjgNIcqneR4EacIRM2212pDjJRiE5gVSadktgK5xAGR
+qr7evGBNQKhGpw1UZ0wT+ujj/0zemtzH/khd8NZONh2436lvuG313r2+xj06IBXs
+7z9NaZ8t6dF6GFHXG/KEK+ctx9RgLmnf88z2fPdvn5h1Y0PfufTiuq/9uT0x7WzG
+dEW0OHgzE3SC1Su0mb0vzGcNjHgjNyXEekYi734r3pr8jL537kKHvulyZurKUTom
+2d8G4qPNFx5EzDe/M/Rc0+GFXUFdcR/OVrceCvy8sWZqj0XzWqWWactnjW8vZjQf
+JA7lDI7PT8ezBeu8EzXxO0rrgyqyJ3an3Wg/u3M6uKf/q7xrfN/mLYmDvvupt9xf
+rA2f3MqsPrr0ceH8pVU/tA+vv13ef94qRSZu+fF0ckTd5Hh43VT6mZbs7YPrz9Q8
+ElbWWF1qajll9H+qP9m8qjS6fu6DNH1c8dUFNltXHV5XPj705VzQla1hDSm6K97R
+osSfRzpmZ3/NC9jlaVmcKRjbcD5L6LRd1pZ75OSrCY3drR2w4YglZd/DbypL+5e2
+1eRXpZjeP6GlzoadjPkpfWY43/8gfkdSVNTKo/XnWrjazrWb405MgF9ODUyYOqvq
+7tzZPzMMr3k8L4vfd/e9EfV6rc+34dXAqTc1vnjmycNURrvU1TZ0z/te9YqUvVlM
+9/MhY+lLs4W6G7/bLElLM5c+ejr2evHDNH/wXOaRueEXmVD3MWPWtojU6pBFc1Hs
+bvBu5LBD33ogyZhVefGlnX8CzLDEYg==
+=G+jT
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/harshjv
+
+==================================================================

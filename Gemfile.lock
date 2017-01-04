@@ -134,6 +134,8 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll
+  jekyll-redirect-from
+  jekyll-sitemap
 
 BUNDLED WITH
-   1.10.6
+   1.13.7
